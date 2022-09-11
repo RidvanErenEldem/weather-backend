@@ -9,6 +9,10 @@ const app = express();
 
 app.use(cors());
 
+app.get("/", (req, res) => {
+  res.send("Hello World!");
+});
+
 app.get("/weather", (req, res) => {
   const options = {
     method: "GET",
