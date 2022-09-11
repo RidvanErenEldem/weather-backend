@@ -7,7 +7,7 @@ require("dotenv").config();
 
 const app = express();
 
-app.use(cors({ origin: "https://weather-express420.herokuapp.com/" }));
+app.use(cors({ origin: "http://localhost:3000" }));
 
 app.get("/", (req, res) => {
   res.send("Hello World!");
