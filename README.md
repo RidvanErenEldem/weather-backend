@@ -1,6 +1,6 @@
 # weather-backend
 
-[![Heroku](https://heroku-badge.herokuapp.com/?app=weather-express420)]s
+![Heroku](https://heroku-badge.herokuapp.com/?app=weather-express420)
 
 ## How To Use
 
