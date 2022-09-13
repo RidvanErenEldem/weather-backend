@@ -6,5 +6,8 @@ First of all, you need to create a api key for your application from weatherapi.
 
 ### `REACT_APP_KEY = YOUR_API_KEY`
 
-After creating key [go to frontend repo](https://github.com/RidvanErenEldem/weather/) and folow the steps
-  
+After creating key run the 
+
+## `npm start`
+
+Command after server is started [go to frontend repo](https://github.com/RidvanErenEldem/weather/) and folow the steps
