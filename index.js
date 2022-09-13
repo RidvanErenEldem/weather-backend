@@ -1,5 +1,5 @@
 // Backend for the project
-const PORT = 8000;
+const PORT = 5000;
 const express = require("express");
 const cors = require("cors");
 const axios = require("axios");
