@@ -1,5 +1,7 @@
 # weather-backend
 
+[![Heroku](https://heroku-badge.herokuapp.com/?app=weather-express420)]s
+
 ## How To Use
 
 First of all, you need to create a api key for your application from weatherapi.com after that create a file named ".env" in your root directory and add it to your api key like so:
