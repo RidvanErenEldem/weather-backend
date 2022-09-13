@@ -29,4 +29,4 @@ app.get("/weather", (req, res) => {
     });
 });
 
-app.listen(PORT, () => console.log(`Server is  running on ${PORT}`));
+app.listen(process.env.PORT || 5000);
