@@ -1,8 +1,10 @@
 // Backend for the project
-const PORT = 5000;
+let PORT = 5000;
 const express = require("express");
 const cors = require("cors");
 const axios = require("axios");
+const https = require("https");
+const fs = require("fs");
 require("dotenv").config();
 
 const app = express();
@@ -29,4 +31,10 @@ app.get("/weather", (req, res) => {
     });
 });
 
-app.listen(process.env.PORT || 5000);
+const options = {
+    key: fs.readFileSync('key.pem'),
+    cert: fs.readFileSync('cert.pem')
+}
+
+PORT = process.env.PORT || 5000
+https.createServer(options, app).listen(PORT, console.log(`server runs on port ${PORT}`))
